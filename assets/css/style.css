@@ -1,0 +1,9 @@
+* {
+	text-align: center;
+	box-sizing: border-box;
+}
+
+header {
+	background-image: linear-gradient(to right, blue , #999);
+	color:white;
+}
