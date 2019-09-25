@@ -1,0 +1,71 @@
+* {
+	
+	box-sizing: border-box;
+}
+
+html, body {
+	margin:0;
+	padding: 0;
+}
+
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header {
+	background-image: linear-gradient(to right, purple,blue);
+	color: white;
+	padding: 1rem 0;
+}
+
+header h1 {
+	margin:0;
+	display: inline-block;
+}
+
+header .menu-button {
+	float:right;
+	margin-top: 8px;
+	background-color: purple;
+	border-radius: 2px;
+	border: solid 2px white;
+	color: white;
+}
+
+.intro {
+	padding: 1rem 0;
+}
+
+.sidebar {
+	position: fixed;
+	top:0;
+	left:0;
+	background-color: #004;
+	width:25%;
+	height: 100vh;
+	
+	transform: translateX(-100%);
+	transition: 0.3s ease all;
+}
+
+.sidebar.ativo {
+	
+	transform: translateX(0);
+}
+
+.sidebar ul {
+	padding-left: 0;
+}
+
+.sidebar li {
+	list-style: none;
+	padding: 1rem 0;
+	text-align: center;
+}
+
+.sidebar a {
+	color: white;
+
+}

@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body, figure {
+	margin:0;
+	padding: 0;
+}
+
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.slider .slide {
+	text-align: center;
+	display: none;
+}
+
+.slider .slide.ativo {
+	display: block;
+}
