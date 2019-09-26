@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://unpkg.com/sakura.css@1.0.0/css/sakura.css">
+
+	<title>Controle dos Pila</title>
+</head>
+<body>
+	<header>
+		<h1>Controle dos Pila que se vão</h1>
+
+		<form id="formulario">
+			<input type="text" id="titulo" placeholder="Título">
+			<input type="number" id="valor" step="0.01" placeholder="Valor">
+			<button type="submit">Inserir</button>
+		</form>
+		<hr>
+		
+	</header>
+	
+		<table>
+			<thead>
+				<tr>
+					<td>Título</td>
+					<td>Valor</td>
+				</tr>
+			</thead>
+			<tbody id="listagem">
+				
+			</tbody>
+			<tfoot>
+				<td>Total</td>
+				<td class="total">0.00</td>
+			</tfoot>
+		</table>
+
+	<script src="./assets/js/script.js"></script>
+</body>
+</html>
