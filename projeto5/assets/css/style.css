@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #999911;
+
+}
+
+.container {
+	max-width: 980px;
+	text-align: center;
+}
+
+header h1 {
+	margin:0;
+}
